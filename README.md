@@ -3,26 +3,26 @@ J-A-R-V-I-S is a Python-baesd AI assistant that is capable of performing tasks s
 
 <img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/743/cached.offlinehbpl.hbpl.co.uk/news/OMC/jarviscropped-20160128125915765.jpg" width=60%>
 
-### Prerequisites
+## Prerequisites
 
-Install *[Python3.6.2](https://www.python.org/downloads/release/python-362/)*
+- Install *[Python 3.6.2](https://www.python.org/downloads/release/python-362/)*
 
-Install the following libraries by running the mentioned commands: 
+### Install the following libraries by running the mentioned commands: 
 
-*pyttsx3*
+- *pyttsx3*
 ```python
 
 pip install pyttsx3
 ```
-*pyaudio*
+- *pyaudio*
 ```python
 pip install pyaudio
 ```
-*speech recongnition*
+- *Speech Recognition*
 ```python
 pip install SpeechRecognition
 ```
-*Wikipedia*
+- *Wikipedia*
 ```python
 pip install wikipedia
 ```
