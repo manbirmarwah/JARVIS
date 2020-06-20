@@ -1,7 +1,9 @@
 # JARVIS
 J-A-R-V-I-S is a Python-baesd AI assistant that is capable of performing tasks such as sending e-mails, home automation, Wikipedia search and much more.
 
+<div style="display: flex; justify-content: center;">
 <img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/743/cached.offlinehbpl.hbpl.co.uk/news/OMC/jarviscropped-20160128125915765.jpg" width=60%>
+</div>
 
 ## Prerequisites
 
