@@ -9,7 +9,7 @@ J-A-R-V-I-S is a Python-based AI assistant that is capable of performing tasks s
 
 - Install *[Python 3.6.2](https://www.python.org/downloads/release/python-362/)*
 
-### Install the following libraries by running the mentioned commands: 
+### Install the following libraries by running these commands: 
 
 - *pyttsx3*
 ```python
