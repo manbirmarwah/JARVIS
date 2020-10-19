@@ -203,7 +203,28 @@ if __name__ == "__main__":
             location = data[2]
             speak("Hold on, I will show you where " + location + " is.")
             os.system('cmd /k "start chrome https://www.google.nl/maps/place/"'+ location)
-            # os.system("start chrome https://www.google.nl/maps/place/" + location    
+            # os.system("start chrome https://www.google.nl/maps/place/" + location  
+
+        #open youtube
+        elif 'jarvis open youtube' in query:
+         webbrowser.open("youtube.com")
+
+        #open google
+        elif 'jarvis open github' in query:
+            webbrowser.open("github.com")
+
+        #open stackoverflow
+        elif 'jarvis open stackoverflow' in query:
+            webbrowser.open("stackoverflow.com")
+
+       #time
+        elif 'jarvis what is the time now' in query:
+            strTime = datetime.datetime.now().strftime("%H:%M:%S")
+            speak(f"Sir, the time is {strTime}")
+
+        elif 'open code' in query:
+            codePath = "C:\\Users\\Haris\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            os.startfile(codePath)  
 
         elif 'go offline' in query:
             speak("Shutting down the system")
