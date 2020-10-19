@@ -194,6 +194,16 @@ if __name__ == "__main__":
             lightoff()
             speak("Lights are off")
             
+        elif 'it\'s my birthday today' in query:
+            print(" Wow! Wish you a very Happy Birthday")
+            speak(" Wow! Wish you a very Happy Birthday")
+    
+        elif "where is" in query:
+            data = query.split(" ")
+            location = data[2]
+            speak("Hold on, I will show you where " + location + " is.")
+            os.system('cmd /k "start chrome https://www.google.nl/maps/place/"'+ location)
+            # os.system("start chrome https://www.google.nl/maps/place/" + location    
 
         elif 'go offline' in query:
             speak("Shutting down the system")
